@@ -22,7 +22,7 @@ An Augmented Reality (AR) drawing application built with Python, OpenCV, and Med
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/AR-Virtual-Painter.git](https://github.com/yourusername/AR-Virtual-Painter.git)
+   git clone [https://github.com/KNCn23/AR-Virtual-Painter.git](https://github.com/yourusername/AR-Virtual-Painter.git)
    cd AR-Virtual-Painter
    
 Create and activate a virtual environment:
@@ -63,7 +63,7 @@ Renk Paleti: Ekranın üst kısmındaki arayüz sayesinde Neon Mor, Yeşil, Mavi
 Projeyi bilgisayarınıza indirin:
 
 Bash
-git clone [https://github.com/KULLANICI_ADIN/AR-Virtual-Painter.git](https://github.com/KULLANICI_ADIN/AR-Virtual-Painter.git)
+git clone [https://github.com/KNCn23/AR-Virtual-Painter.git](https://github.com/KULLANICI_ADIN/AR-Virtual-Painter.git)
 cd AR-Virtual-Painter
 
 Sanal ortam (virtual environment) oluşturun ve aktif edin:
