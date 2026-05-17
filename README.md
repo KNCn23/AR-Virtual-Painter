@@ -1,11 +1,30 @@
-# 🎨 AR Virtual Painter (AR Sanal Ressam)
+# AR Virtual Painter
 
-[TR] OpenCV ve MediaPipe kullanarak havada el hareketleriyle çizim yapmanızı sağlayan bir Artırılmış Gerçeklik (AR) uygulaması.
+An augmented reality drawing application built with Python, OpenCV, and MediaPipe. It tracks hand gestures through a webcam and translates index finger movement into real-time strokes on a virtual canvas overlaid on the live camera feed.
 
-[EN] An Augmented Reality (AR) application that allows you to draw in the air with hand gestures using OpenCV and MediaPipe.
+## Features
 
-## 🛠️ Tech / Teknolojiler
-- Python, OpenCV, MediaPipe
+- Real-time hand tracking with no external hardware beyond a standard webcam
+- Color selection and brush size control via hand gestures
+- Canvas clear gesture
+- Smooth stroke rendering using OpenCV drawing primitives
 
-## 🚀 Run / Çalıştır
-`python virtual_painter.py`
+## Requirements
+
+Python 3.8+ and a webcam with reasonable lighting.
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+## Tech
+
+| Library | Role |
+|---------|------|
+| OpenCV | Video capture, frame rendering, drawing |
+| MediaPipe | Hand landmark detection |
+
+## License
+
+MIT
